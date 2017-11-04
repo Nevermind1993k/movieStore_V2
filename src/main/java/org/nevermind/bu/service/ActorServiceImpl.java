@@ -20,7 +20,6 @@ public class ActorServiceImpl implements ActorService {
         return actorDao.findById(id);
     }
 
-
     @Override
     public Collection<Actor> getAll() {
         return actorDao.findAll();

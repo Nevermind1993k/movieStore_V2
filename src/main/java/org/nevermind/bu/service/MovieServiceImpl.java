@@ -25,16 +25,6 @@ public class MovieServiceImpl implements MovieService {
         return movieDao.findByName(name);
     }
 
-    /*@Override
-    public Page<Movie> getAll(Integer page, Integer size, String order) {
-        if (StringUtils.isEmpty(order)) {
-            order = "id";
-        }
-        Sort sort = new Sort(new Sort.Order(Sort.Direction.ASC, order));
-        Pageable pageable = new PageRequest(page, size, sort);
-        return movieDao.findAll(pageable);
-    }*/
-
     @Override
     public Collection<Movie> getAll() {
         return movieDao.findAll();
