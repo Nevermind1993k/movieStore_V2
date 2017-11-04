@@ -1,0 +1,11 @@
+INSERT INTO moviestoredb.movie (name, price, year, genre) VALUES ('Friends', 22.22, 1999, 3);
+INSERT INTO moviestoredb.movie ( name, price, year, genre) VALUES ('Film1', 14.88, 2222, 1);
+INSERT INTO moviestoredb.movie ( name, price, year, genre) VALUES ('Film2', 15.99, 1111, 2);
+INSERT INTO moviestoredb.movie ( name, price, year, genre) VALUES ('Film3', 11.22, 1234, 0);
+INSERT INTO moviestoredb.movie ( name, price, year, genre) VALUES ('Film4', 11.22, 4321, 1);
+INSERT INTO moviestoredb.movie ( name, price, year, genre) VALUES ('Film5', 22.22, 3214, 2);
+INSERT INTO moviestoredb.movie ( name, price, year, genre) VALUES ('Film6', 13.33, 2314, 3);
+INSERT INTO moviestoredb.movie ( name, price, year, genre) VALUES ('Film7', 44.22, 5123, 4);
+INSERT INTO moviestoredb.movie ( name, price, year, genre) VALUES ('Film8', 12.33, 5123, 1);
+INSERT INTO moviestoredb.movie ( name, price, year, genre) VALUES ('Film9', 18.88, 5123, 2);
+INSERT INTO moviestoredb.movie ( name, price, year, genre) VALUES ('Film10', 98.88, 5123, 3);
