@@ -26,8 +26,8 @@ public class DirectorServiceImpl implements DirectorService {
     }
 
     @Override
-    public void save(Director director) {
-        directorDao.save(director);
+    public Director save(Director director) {
+        return directorDao.save(director);
     }
 
     @Override

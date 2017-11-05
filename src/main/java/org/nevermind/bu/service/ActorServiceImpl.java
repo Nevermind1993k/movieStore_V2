@@ -26,8 +26,8 @@ public class ActorServiceImpl implements ActorService {
     }
 
     @Override
-    public void save(Actor actor) {
-        actorDao.save(actor);
+    public Actor save(Actor actor) {
+        return actorDao.save(actor);
     }
 
     @Override

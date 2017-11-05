@@ -8,7 +8,7 @@ public interface IService<T> {
 
     Collection<T> getAll();
 
-    void save(T entity);
+    T save(T entity);
 
     void delete(int id);
 
